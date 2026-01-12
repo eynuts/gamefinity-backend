@@ -225,7 +225,7 @@ socket.on("startGame", ({ lobbyId, categories }) => {
   // --------------------
   // QUESTION PREPARATION
   // --------------------
-  const QUESTIONS_PER_CATEGORY = 1;
+  const QUESTIONS_PER_CATEGORY = 3;
   let questions = [];
 
   categories.forEach(cat => {
@@ -488,3 +488,4 @@ socket.on("startGame", ({ lobbyId, categories }) => {
 
   });
 };
+
